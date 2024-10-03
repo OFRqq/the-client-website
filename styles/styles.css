@@ -1,26 +1,71 @@
 /* CSS */
-:root {
-    --main-color-green: #4e7141;
-    --main-color-beige: #f9e9c2;
-    --main-color-orange: #ff8d06;
-    --main-color-brown: #491b02;
-    --card-color-orange: #ff9a41;
-    --card-color-green: #3c593e;
-    --text-color-white: #fff;
-    --text-color-black: #000;
-    --invalid-color-red: #ff0000;
-    --header-font: 'Poppins-Black', sans-serif;
-    --sub-header-font: 'Poppins-Bold', sans-serif;
-    --paragraph-font: 'Poppins-Medium', sans-serif;
-    --link-font: 'Poppins-Regular', sans-serif;
-    --border-bigCard: 2em;
-    --border-card: 1.0625em;
-    --image-gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+/*root color and fonts*/
+:root{
+--color-blue:0, 98, 105;
+--color-green:120, 157, 74;
+--color-orange:239, 103, 46;
+--color-dark-blue:44, 46, 101;
+--color-grey:99, 92, 79;
+--main-font:Arial;
+--secondary-font:"Albert Sans", sans-serif;
 }
 
+/*All*/
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+/*select customized*/
+::selection {
+    background-color: rgb(255, 241, 178);
+}
 
+/* margin for sections*/
+main{
+    >*{
+        margin:5rem 0;
+    }
+}
+
+/* scrollbar width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* scrollbar Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 10px;
+  }
+   
+  /* scrollbar Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+
+}
+/*header navbar*/
+header {
+    top:0;
+    position: sticky;
+    ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+}
+
+a.Nav,a.logo-Nav {
+    text-decoration: none;
+    color:black;
+    font-family:var(--secondary-font)
+}
+
+body {
+    display:grid;
+
+}
