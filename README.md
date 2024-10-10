@@ -13,9 +13,11 @@ Bij de buurtcamus draaien verschillende duurzame projecten; De Stekjes bieb, De 
 ## kenmerken 
 Bij de opdracht van Bieb In Bloei maakte ik gebruik van html, css en js en verschillende soorten assets.
 
-HTML -https://github.com/OFRqq/the-client-website/blob/main/index.html
-JS -https://github.com/OFRqq/the-client-website/blob/bd766748aeaf94a264e0b63340567035d8fb9ad3/index.html#L167C1-L184C12
-CSS -https://github.com/OFRqq/the-client-website/blob/main/styles/styles.css
+* HTML -https://github.com/OFRqq/the-client-website/blob/main/index.html
+
+* JS -https://github.com/OFRqq/the-client-website/blob/bd766748aeaf94a264e0b63340567035d8fb9ad3/index.html#L167C1-L184C12
+
+* CSS -https://github.com/OFRqq/the-client-website/blob/main/styles/styles.css
 
 Ook had ik bij deze opdracht de volgende ideeën van een medestudent bij dezelfde opdracht.
 https://www.figma.com/design/FbHidGhCfMsFMZRuKh2kKr/Bieb-in-Bloei-design-website?node-id=0-1&m=dev&t=wp9WA9MbsdsZlppY-1
