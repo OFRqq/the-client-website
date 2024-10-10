@@ -14,7 +14,7 @@
 --card-color-green: #3c593e;
 --title-font:"Source Code Pro", monospace;
 --main-font:"Albert Sans", sans-serif;
---border-radius:30px;
+--border-radius:2rem;
 --section-margin: 0 80px;
 }
 
@@ -193,7 +193,7 @@ div.Geveltuin-details {
 /*section-Geveltuin text styling*/
 .text {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
 }
 }
 /*section-Geveltuin image grid + styling*/
@@ -239,6 +239,58 @@ img {
 }
 }
 
+/*section-stezad grid area + background*/
 .stezad {
+    padding:40px 130px;
     grid-area: 3/1/4/3;
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-template-rows:repeat(6, 1fr);
+    background-color:var(--main-color-green);
+    gap:20px;
+    /*section-stezad details grid*/
+    .Stezad-details {
+        grid-area: 1/1/7/4;
+    }
+    /*section-stezad*/
+    h2.title {
+        padding : 0 0 0 10px;
+        font-family: var(--title-font);
+        background-color: rgb(255, 255, 255);
+        border-radius:var(--border-radius);
+    }
+    /*section-stezad*/
+    .text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+    }
+    /*section-stezad*/
+    .buttons {
+    text-align: left;
+    padding:30px;
+    }
+    /*section-stezad*/
+    a {
+        padding:10px;
+        border-radius: var(--border-radius);
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0.529);
+        text-shadow: 0 0 20px;
+        font-family: var(--main-font);
+        text-align: center;
+    }
+    /*section-stezad*/
+    a:hover {
+        color: green;
+        background-color:white;
+        transition: 0.4s;
+        text-shadow: 0 0 0;
+    }
 }
+    .stezad-img-wrapper {
+        grid-area: 1/4/7/7;
+        .stekjes-image {
+            grid-area: 7/1/4/7;
+        }
+    }
