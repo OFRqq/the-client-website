@@ -113,6 +113,7 @@ main {
     display:grid;
     grid-template-rows: repeat(4, 100vh);
     grid-template-columns:repeat(2, 1fr);
+    gap:1em;
 }
 
 /*section-title grid + text positioning*/
@@ -175,7 +176,7 @@ section.Geveltuin {
 div.Geveltuin-details {
     grid-area:1/1/2/2;
     background-color:var(--main-color-beige);
-    padding:50px;
+    padding:25px;
     border-radius:var(--border-radius);
 /*section-Geveltuin title styling*/
 .title-H2 {
@@ -200,8 +201,8 @@ div.Geveltuin-details {
 .Geveltuin-image-wrapper {
     grid-area: 2/1/3/2;
     background-color:var(--main-color-beige);
-    padding:50px;
-    margin:40px;
+    padding:1em;
+    margin:2.5em;
     border-radius:var(--border-radius);
     background-image: url(/assets/background.jpg);
     background-position: center;
@@ -234,8 +235,8 @@ a:hover {
     align-items: center; /* Center vertically */
     padding:0 20px 0 0;
 img {
-    padding:50px;
-    height: 40vh;
+    padding:20px;
+    height: 30vh;
 }
 }
 
@@ -250,8 +251,14 @@ img {
     gap:20px;
     /*section-stezad details grid*/
     .Stezad-details {
-        grid-area: 1/1/7/4;
+        grid-area: 1/1/7/7;
+        padding:20px;
+        border-radius: var(--border-radius);
+        background-color: #491b02;
     }
+     .Stezad-container {
+        grid-area: 1/1/7/4;
+     }
     /*section-stezad*/
     h2.title {
         padding : 0 0 0 10px;
@@ -259,10 +266,15 @@ img {
         background-color: rgb(255, 255, 255);
         border-radius:var(--border-radius);
     }
+/*section-stezad h3 color*/
+    h3 {
+        color:var(--main-color-beige);
+    }
     /*section-stezad*/
     .text {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1rem;
+        color:var(--main-color-beige);
     }
     /*section-stezad*/
     .buttons {
@@ -293,4 +305,8 @@ img {
         .stekjes-image {
             grid-area: 7/1/4/7;
         }
+    }
+
+    section {
+        background:var(--main-color-orange);
     }
