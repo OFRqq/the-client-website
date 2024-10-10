@@ -1,6 +1,6 @@
 https://github.com/fdnd-task/the-client-website/blob/main/docs/INSTRUCTIONS.md
 
-# intro 
+# intro - opdracht
 Ontwerp en ontwikkel het digitale platform voor Bieb in Bloei.
 
 ## Bieb In Bloei - website
