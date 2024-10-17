@@ -20,7 +20,7 @@
 
 /*background image*/
 body {
-    background-image:url(/assets/background.jpg);
+    background-image:url(../assets/background.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -206,7 +206,7 @@ div.Geveltuin-details {
     padding:50px;
     margin:40px;
     border-radius:var(--border-radius);
-    background-image: url(/assets/background.jpg);
+    background-image: url(../assets/background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
